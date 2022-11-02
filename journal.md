@@ -1,5 +1,14 @@
 # Developer's Journal
 
+## Wednesday, 11/2/2022
+
+- added the title section
+- added the about section
+- my notes:
+  1. addf
+
+<br>
+
 ## Tuesday, 11/1/2022
 
 - set up fullscreen image slider
@@ -7,7 +16,7 @@
 - set Superslides options: https://github.com/nicinabox/superslides > Options
 - added and styled "previous page" and "next page" buttons (icons)
 - added a background overlay to the slider
-- My notes:
+- my notes:
 
   1. Superslides - Superslides is a full screen, hardware accelerated slider for jQuery. - google "superslides", click on https://github.com/nicinabox/superslides, get the two files we need (jquery.superslides.min.js & superslides.css), then add them to the head section
      ![adding superslides files](/images/add-superslides-files.png)
