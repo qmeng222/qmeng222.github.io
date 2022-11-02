@@ -3,9 +3,12 @@
 ## Wednesday, 11/2/2022
 
 - added the title section
+- had typed through effect on subtitle using plugin typed.js
 - added the about section
 - my notes:
-  1. addf
+  1. Typed.js
+     - Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
+     - link: https://github.com/mattboldt/typed.js/
 
 <br>
 

@@ -6,4 +6,13 @@ $(document).ready(function () {
     play: 5000, // 5000ms
     pagination: false,
   });
+
+  // typed through effect on subtitle using typed.js:
+  var typed = new Typed(".typed", {
+    strings: ["creative", "adaptive", "motivated"],
+    typeSpeed: 100, // type speed in milliseconds
+    loop: true,
+    startDelay: 1000,
+    showCursor: false,
+  });
 });
