@@ -1,0 +1,24 @@
+.overlay {
+  width: 100%; /* do 100% of the page with the dark overlay */
+  height: 100%;
+  position: absolute; /* positioned relative to the nearest positioned ancestor */
+  z-index: 3; /* specifies the stack order of an elmt, below the icon but before the image */
+  background-color: rgba(0, 0, 0, 0.3); /* a: opacity */
+}
+
+.slides-navigation .prev, /* matches the class names for icons in index.httml: */
+.slides-navigation .next {
+  width: 47px;
+  height: 47px;
+  background-size: cover; /* let the background image (the icon) cover the whole 47 pixels: */
+}
+
+.slides-navigation a.prev {
+  left: 20px; /* 20 pixels from the left: */
+  background-image: url(../images/icons/prev.png);
+}
+
+.slides-navigation a.next {
+  right: 20px;
+  background-image: url(../images/icons/next.png);
+}
