@@ -52,3 +52,11 @@
 .title-msg .heading .sub {
   font-size: 27px;
 }
+
+.section {
+  padding: 100px 0;
+}
+
+.headshot {
+  max-width: 100%;
+}

@@ -1,14 +1,16 @@
-# Developer's Journal
+# Qingying's Developer Journal
 
 ## Wednesday, 11/2/2022
 
-- added the title section
+- added the **_title_** section
 - had typed through effect on subtitle using plugin typed.js
-- added the about section
-- my notes:
+- added headshot and text to the **_about me_** section
+- study notes:
   1. Typed.js
      - Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.
      - link: https://github.com/mattboldt/typed.js/
+  2. shorthands handling properties related to edges of a box:
+     ![CSS box edges](/images/journal-images/CSS-box-edges.png)
 
 <br>
 
@@ -19,10 +21,10 @@
 - set Superslides options: https://github.com/nicinabox/superslides > Options
 - added and styled "previous page" and "next page" buttons (icons)
 - added a background overlay to the slider
-- my notes:
+- study notes:
 
   1. Superslides - Superslides is a full screen, hardware accelerated slider for jQuery. - google "superslides", click on https://github.com/nicinabox/superslides, get the two files we need (jquery.superslides.min.js & superslides.css), then add them to the head section
-     ![adding superslides files](/images/add-superslides-files.png)
+     ![adding superslides files](/images/journal-images/add-superslides-files.png)
   2. add placeholder images:
      ```html
      <div id="slides">
@@ -36,7 +38,7 @@
   3. find free images at https://www.pexels.com/
   4. find free icons at https://icons8.com/
   5. in css, the one described in more detail takes precedence:
-     ![css precedence eg](/images/css-precedence-eg.png)
+     ![css precedence eg](/images/journal-images/css-precedence-eg.png)
      👆in this example, **_right: 20px_** is overwritten by **_right: 0_** because **_a.next_** is has more detail than **_.next_**
   6. css **_position_** examples: https://www.ruanyifeng.com/blog/2019/11/css-position.html
   7. if two elements have the same z-index, it goes by the order the element was mounted
@@ -48,9 +50,9 @@
 - Project setup:
   1. addding jQuery
   2. adding Bootstrap
-- My notes:
+- study notes:
   1. HTML skeleton: type ! into an html file in VS Code and then press tab
-     ![HTML skeleton](/images/html-skeleton.png)
+     ![HTML skeleton](/images/journal-images/html-skeleton.png)
   2. Code > Preferences > Configure User Snippets > choose existing snippets or create new snippet
   3. jQuery:
      - jQuery is a JS library designed to simplify HTML DOM (Document Object Model) tree manipulation, event handling, CSS, and animation.
@@ -58,6 +60,9 @@
   4. Bootstrap:
      - Bootstrap is a front-end component library. It's a good starting point.
      - add Bootstrap from a CDN: https://getbootstrap.com/docs/5.2/getting-started/download/
-       ![adding Bootstrap](/images/add-Bootstrap.png)
+       ![adding Bootstrap](/images/journal-images/add-Bootstrap.png)
      - add Popper BEFORE JavaScript via a CDN:
-       ![adding Popper](/images/add-Popper.png)
+       ![adding Popper](/images/journal-images/add-Popper.png)
+     - Bootstrap grid system:
+       - https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp
+       - example explained: https://stackoverflow.com/questions/24175998/meaning-of-numbers-in-col-md-4-col-xs-1-col-lg-2-in-bootstrap
