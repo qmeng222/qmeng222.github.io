@@ -1,10 +1,32 @@
 # Qingying's Developer Journal
 
+<br>
+
+## Thursday, 11/3/2022
+
+- adde the Owl Carousel:
+- added the **_technical skill_** section with slider and pie charts
+- activated the charts on scroll
+- study notes:
+  - colors for web designers: https://flatuicolors.com/
+  - owl carousel:
+    - owl carousel is a touch enabled jQuery plugin that lets you create a beautiful responsive carousel slider
+    - download files: https://owlcarousel2.github.io/OwlCarousel2/
+    - demos: https://owlcarousel2.github.io/OwlCarousel2/demos/demos.html
+  - easy pie chart:
+    - easy pie chart is a lightweight plugin to render simple, animated and retina optimized pie charts
+    - download files: https://github.com/rendro/easy-pie-chart
+    - options to set a custom look for the pie chart: https://github.com/rendro/easy-pie-chart > Options
+    - callback params: https://github.com/rendro/easy-pie-chart > Callbacks
+  - the <canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics
+
+<br>
+
 ## Wednesday, 11/2/2022
 
 - added the **_title_** section
 - had typed through effect on subtitle using plugin typed.js
-- added headshot and text to the **_about me_** section
+- added headshot & text to the **_about me_** section
 - study notes:
   1. Typed.js
      - Typed.js is a library that types. Enter in any string, and watch it type at the speed you've set, backspace what it's typed, and begin a new sentence for however many strings you've set.

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Qingying's Portfolio</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="css/superslides.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Qingying's Portfolio</title>
   </head>
 
   <body>
@@ -49,33 +50,25 @@
             />
           </div>
           <div class="col-md-7">
-            <h2>About Me</h2>
+            <h2>ABOUT ME</h2>
             <p></p>
             <p>
               Hi there! I'm Qingying(ching-ying) Meng at San Jose, California. I
-              caught fire coding.
-            </p>
-            <p>
-              My favorite language is JavaScript, and my favorite environment is
-              Node.js.
+              caught fire coding. My favorite language is JavaScript, and my
+              favorite runtime environment is Node.js. I am always adding on new
+              languages, frameworks, and libraries as needed.
             </p>
             <ul>
+              <li><b>Languages</b>: JavaScript, python, C</li>
+              <li><b>Front-end</b>: HTML, CSS, React, Angular, Query</li>
               <li>
-                <b>Front-end</b>: JavaScript, HTML, CSS, React, Angular, Query
-              </li>
-              <li>
-                <b>Back-end</b>: JavaScript, Python, Django, fastAPI,
-                Express.js, Node.js, SQL, PostgreSQL, MongoDB, RabbitMQ,
-                WebSocket, CI/CD
+                <b>Back-end</b>: Django, fastAPI, Node.js, Express.js, SQL,
+                PostgreSQL, MongoDB, RabbitMQ, WebSocket, CI/CD
               </li>
               <li>
                 <b>IDE/DevOps</b>: VS Code, Docker, Git, GitHub Actions, Heroku
               </li>
             </ul>
-            <p>
-              Always adding on new languages, frameworks, and libraries as
-              needed.
-            </p>
             <p>
               Outside of coding, I love gardening, meditation, and petting my
               guinea pigs.
@@ -85,7 +78,31 @@
       </div>
     </div>
 
+    <div id="skills" class="skills-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A presentation of my proficiency in each skill.</p>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="skill">
+              <span class="chart" data-percent="86">
+                <span class="percent">86</span>
+                <canvas height="152" width="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>My favorite programming language</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/typed.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
