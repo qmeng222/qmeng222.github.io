@@ -6,7 +6,8 @@
 
 - adde the Owl Carousel:
 - added the **_technical skill_** section with slider and pie charts
-- activated the charts on scroll
+- styled the pie charts
+- activated the pie charts on scroll by setting skillsTopOffset as a trigger
 - study notes:
   - colors for web designers: https://flatuicolors.com/
   - owl carousel:
