@@ -3,14 +3,14 @@ $(document).ready(function () {
   // "slides" must matches the id in index.html
   $("#slides").superslides({
     animation: "fade",
-    play: 2600, // 5000ms
+    play: 3600, // 5000ms
     pagination: false,
   });
 
   // typed through effect on subtitle using typed.js:
   var typed = new Typed(".typed", {
-    strings: ["creative", "adaptive", "motivated"],
-    typeSpeed: 120, // type speed in milliseconds
+    strings: ["software engineer", "creative", "adaptive", "motivated"],
+    typeSpeed: 100, // type speed in milliseconds
     loop: true,
     startDelay: 1000,
     showCursor: false,
@@ -40,9 +40,17 @@ $(document).ready(function () {
     },
   });
 
-  var skillsTopOffset = $(".skills-section").offset().top;
+  const skillsTopOffset = $(".skills-section").offset().top;
+  // console.log(skillsTopOffset);
+  const statsTopOffset = $(".stats-section").offset().top;
+  // console.log(statsTopOffset);
+  let countUpFinished = false;
+
   $(window).scroll(function () {
+    // show current y coordinate:
     // console.log(window.pageYOffset);
+
+    // activat pie charts on scroll:
     if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
       // matches the class="chart" in index.html:
       $(".chart").easyPieChart({
@@ -58,6 +66,19 @@ $(document).ready(function () {
           $(this.el).find(".percent").text(Math.round(percent)); // matches class="percent" in index.html
         },
       });
+    }
+
+    // count stats number up on scroll:
+    if (
+      !countUpFinished &&
+      window.pageYOffset > statsTopOffset - $(window).height() + 200
+    ) {
+      $(".counter").each(function () {
+        var element = $(this);
+        var endVal = parseInt(element.text());
+        element.countup(endVal);
+      });
+      countUpFinished = true;
     }
   });
 });

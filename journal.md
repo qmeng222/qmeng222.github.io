@@ -2,6 +2,32 @@
 
 <br>
 
+## Sunday, 11/6/2022
+
+- added the stats section and styled the skills items
+- added an icon to each skill using Font Awesome (Web Fonts with CSS)
+- activated the counting up from zero on scroll
+- study notes:
+
+  - CSS box model:
+    ![CSS box model](/images/journal-images/CSS-box-model.png)
+  - Font Awesome:
+    - Font Awesome is an icon library and toolkit
+    - use Font Awesome CDN to a deliver cached version nof Font Awesome's web fonts and CSS to the project:
+      ```html
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+        crossorigin="anonymous"
+      />
+      ```
+  - CountUp.js:
+    - CountUp.js is a dependency-free, lightweight JavaScript class that can be used to quickly create animations that display numerical data in a more interesting way: https://inorganik.github.io/countUp.js/
+    - download files: https://github.com/inorganik/CountUp.js
+
+<br>
+
 ## Thursday, 11/3/2022
 
 - adde the Owl Carousel:
@@ -19,7 +45,7 @@
     - download files: https://github.com/rendro/easy-pie-chart
     - options to set a custom look for the pie chart: https://github.com/rendro/easy-pie-chart > Options
     - callback params: https://github.com/rendro/easy-pie-chart > Callbacks
-  - the <canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics
+  - the **canvas** tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics
 
 <br>
 
