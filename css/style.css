@@ -68,7 +68,9 @@
   max-width: 100%;
 }
 
-.skills-section {
+/* both sections are in purple background: */
+.skills-section,
+.contact-section {
   background-color: #474787;
   color: #fff;
 }
@@ -155,4 +157,20 @@
   font-size: 45px;
   margin-left: -20%;
   color: #444;
+}
+
+.contactButton {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.contactButton:hover {
+  background-color: #fff;
+  color: #474787;
+  /* no underline for text-decoration: */
+  text-decoration: none;
 }

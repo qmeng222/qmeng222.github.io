@@ -4,13 +4,11 @@
 
 ## Sunday, 11/6/2022
 
-- added the stats section and styled the skills items
+- added the **_stats_** section and styled the skills items
 - added an icon to each skill using Font Awesome (Web Fonts with CSS)
-- activated the counting up from zero on scroll
+- activated the count up on scroll
+- added and styled the **_contact_** section
 - study notes:
-
-  - CSS box model:
-    ![CSS box model](/images/journal-images/CSS-box-model.png)
   - Font Awesome:
     - Font Awesome is an icon library and toolkit
     - use Font Awesome CDN to a deliver cached version nof Font Awesome's web fonts and CSS to the project:
@@ -25,6 +23,8 @@
   - CountUp.js:
     - CountUp.js is a dependency-free, lightweight JavaScript class that can be used to quickly create animations that display numerical data in a more interesting way: https://inorganik.github.io/countUp.js/
     - download files: https://github.com/inorganik/CountUp.js
+  - CSS box model:
+    ![CSS box model](/images/journal-images/CSS-box-model.png)
 
 <br>
 
