@@ -2,6 +2,21 @@
 
 <br>
 
+## Tuesday, 11/8/2022
+
+- added Isotope plugin (for **_portfolio_** section)
+- added and styled the filter buttons
+- added and styled portfolio items
+- study notes:
+  - Fancybox:
+    - Fancybox helps to create beautiful, modern overlay windows containing images, iframes, videos or any kind of HTML content.
+    - use Fancybox: https://fancyapps.com/docs/ui/quick-start
+  - Bootstrap grid system across multiple devices:
+    ![Bootstrap grid multi devices](/images/journal-images/Bootstrap-grid-multi-devices.png)
+    These classes cann be combined to create more dynamic and flexible layouts.
+
+<br>
+
 ## Sunday, 11/6/2022
 
 - added the **_stats_** section and styled the skills items

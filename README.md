@@ -4,8 +4,8 @@
 
 - project name: software engineer portfolio website
 - project owner: Qingying Meng
-- project purpose:
 - time frame: 10/31/2022 - 11/7/2022
+- project purpose: demonstrate ability for front-end web development using HTML, CSS, JavaScript with various libraries and plugins
 - gitlab url: https://gitlab.com/qmeng222/qmeng222.gitlab.io.git
 
 <br>
@@ -26,7 +26,18 @@
   - owl carousel: https://owlcarousel2.github.io/OwlCarousel2/
   - easy pie chart: https://github.com/rendro/easy-pie-chart
   - CountUp.js: https://inorganik.github.io/countUp.js/
+  - Isotope.pkgd.min.js: https://isotope.metafizzy.co/
+  - Fancybox: https://fancyapps.com/docs/ui/quick-start
 - online resources:
   - free images: https://www.pexels.com/
   - free icons: https://icons8.com/
   - free color palettes: https://flatuicolors.com/
+
+<br>
+
+## Version control:
+
+- go back to a selected commit:
+  ```
+  git checkout <commit-id> .
+  ```

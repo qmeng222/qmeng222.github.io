@@ -174,3 +174,32 @@
   /* no underline for text-decoration: */
   text-decoration: none;
 }
+
+.filter a {
+  color: #d1ccc0;
+  border: 1px solid #d1ccc0;
+  padding: 10px 18px;
+  display: block;
+}
+
+.filter li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current {
+  background-color: #474787;
+  border-color: #474787;
+  color: #fff;
+}
+
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width: 100%;
+}

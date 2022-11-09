@@ -12,11 +12,16 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
     />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -59,7 +64,7 @@
             <h2>ABOUT ME</h2>
             <p></p>
             <p>
-              Hi there! I'm Qingying(ching-ying) Meng at San Jose, California. I
+              Hi there! I'm Qingying(ching-ying) Meng in San Jose, California. I
               caught fire coding. My favorite language is JavaScript, and my
               favorite runtime environment is Node.js. I am always adding on new
               languages, frameworks, and libraries as needed.
@@ -214,6 +219,54 @@
       </div>
     </div>
 
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2>PORTFOLIO</h2>
+          </div>
+          <div class="filter">
+            <ul id="filters">
+              <li><a href="#" data-filter="*" class="current">All</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+              <li><a href="#" data-filter=".me">Me</a></li>
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+
+          <div class="items-container">
+            <ul classs="items">
+              <li class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img
+                    src="/images/web-design-images/portfolio/thumbnails/DMS_square.png"
+                  />
+                  <div class="icons">
+                    <a
+                      href="/images/web-design-images/portfolio/DMS.png"
+                      title="view image"
+                      class="open-image-btn"
+                      data-fancybox
+                      data-caption="Dealer Management System"
+                    >
+                      <i class="fas fa-search"></i>
+                    </a>
+                    <a
+                      href="https://gitlab.com/qmeng222/project-beta"
+                      target="_blank"
+                      class="project-link"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="js/countUp.js"></script>
     <script src="js/countUp-jquery.js"></script>
     <script src="js/jquery.superslides.min.js"></script>
@@ -230,6 +283,11 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script
+      type="text/JavaScript"
+      src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
