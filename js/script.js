@@ -83,4 +83,14 @@ $(document).ready(function () {
   });
 
   $("[data-fancybox]").fancybox();
+
+  // call Isotope plugin on the <ul> elmt:
+  $(".items").isotope({
+    filter: "*",
+    animationOptions: {
+      duration: 1500,
+      easing: "linear",
+      queue: false,
+    },
+  });
 });

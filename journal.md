@@ -8,7 +8,10 @@
 - added and styled the filter buttons
 - added and styled portfolio items
 - study notes:
-  - Fancybox:
+  - Isotope plugin:
+    - Isotope.pkgd.min.js: https://isotope.metafizzy.co/
+    - Isotope options: https://isotope.metafizzy.co/options.html
+  - Fancybox plugin:
     - Fancybox helps to create beautiful, modern overlay windows containing images, iframes, videos or any kind of HTML content.
     - use Fancybox: https://fancyapps.com/docs/ui/quick-start
   - Bootstrap grid system across multiple devices:
