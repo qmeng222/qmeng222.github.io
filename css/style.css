@@ -312,3 +312,13 @@
 .items {
   padding: 0;
 }
+
+.copyright-section {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyright-section p {
+  margin: 0;
+}

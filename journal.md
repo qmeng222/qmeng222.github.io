@@ -9,6 +9,11 @@
 - enabled zooming images on hover
 - enabled filtering items
 - bug fix: icons do not slide in on mobile from time to time
+- study notes:
+  - copyright symbol:
+    ```html
+    <p>&copy;</p>
+    ```
 
 <br>
 
