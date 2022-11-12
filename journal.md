@@ -2,6 +2,14 @@
 
 <br>
 
+## Saturday, 11/12/2022
+
+- added and styled the navigation bar via Bootstrap & Icons8
+- stiking nav bar on scroll
+- sliding to section on click
+
+<br>
+
 ## Friday, 11/11/2022
 
 - added an overlay to the items
@@ -9,6 +17,7 @@
 - enabled zooming images on hover
 - enabled filtering items
 - bug fix: icons do not slide in on mobile from time to time
+- added copyright section
 - study notes:
   - copyright symbol:
     ```html
