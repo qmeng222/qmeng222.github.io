@@ -2,6 +2,18 @@
 
 <br>
 
+## Friday, 11/11/2022
+
+- added an overlay to the items
+- added fly in/out transititons to the buttons
+- enabled zooming images on hover
+- enabled filtering items
+- bug fix: icons not shown on mobile
+- study notes:
+  - aaa:
+
+<br>
+
 ## Tuesday, 11/8/2022
 
 - added Isotope plugin (for **_portfolio_** section)

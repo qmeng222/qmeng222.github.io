@@ -93,4 +93,25 @@ $(document).ready(function () {
       queue: false,
     },
   });
+
+  // filter items:
+  $("#filters a").click(function () {
+    // finding the element that currently has the "current" class applied and removing it:
+    $("#filters .current").removeClass("current");
+    // then assign the "current" class to the button we clicked:
+    $(this).addClass("current");
+
+    var selector = $(this).attr("data-filter"); // eg: selector = ".apps" or ".me" or ...
+
+    $(".items").isotope({
+      filter: selector,
+      animationOptions: {
+        duration: 1500,
+        easing: "linear",
+        queue: false,
+      },
+    });
+
+    return false; // stop doing normal default action inside the click handler
+  });
 });
