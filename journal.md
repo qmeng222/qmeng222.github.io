@@ -8,9 +8,7 @@
 - added fly in/out transititons to the buttons
 - enabled zooming images on hover
 - enabled filtering items
-- bug fix: icons not shown on mobile
-- study notes:
-  - aaa:
+- bug fix: icons do not slide in on mobile from time to time
 
 <br>
 
