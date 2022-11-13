@@ -4,6 +4,16 @@ $(window).on("load", function () {
     // then backgournd fade out in 750ms:
     $(".loader").fadeOut(750);
   });
+
+  // call Isotope plugin on the <ul> elmt:
+  $(".items").isotope({
+    filter: "*",
+    animationOptions: {
+      duration: 1500,
+      easing: "linear",
+      queue: false,
+    },
+  });
 });
 
 // funciton will be executed when the document (aka the page) is ready:
@@ -91,16 +101,6 @@ $(document).ready(function () {
   });
 
   $("[data-fancybox]").fancybox();
-
-  // call Isotope plugin on the <ul> elmt:
-  $(".items").isotope({
-    filter: "*",
-    animationOptions: {
-      duration: 1500,
-      easing: "linear",
-      queue: false,
-    },
-  });
 
   // filter items:
   $("#filters a").click(function () {

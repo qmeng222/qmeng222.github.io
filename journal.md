@@ -4,9 +4,14 @@
 
 ## Sunday, 11/13/2022
 
-- added the loading Gif & fading out loading gif and background
-- specified the viewport
-- bug fix: images overlapping
+- added the loading Gif
+- fading out the loading gif and the background sequentially
+- bug fix: (PORTFOLIO section) images overlapping when the page was loaded the first time
+- study notes:
+  - add viewport meta tag to <head> to ensure proper rendering and touch zooming on mobile devices:
+  ```html
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  ```
 
 <br>
 
