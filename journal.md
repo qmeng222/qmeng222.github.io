@@ -13,7 +13,7 @@
 ## Saturday, 11/12/2022
 
 - added and styled the navigation bar via Bootstrap & Icons8
-- stiking nav bar on scroll
+- sticking nav bar on scroll
 - sliding to section on link click
 
 <br>

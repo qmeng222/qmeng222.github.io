@@ -346,3 +346,9 @@
   background: url(../images/icons/menu.png);
   background-size: 100%;
 }
+
+/* sticky nav bar: */
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
