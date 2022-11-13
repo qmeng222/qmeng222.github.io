@@ -353,3 +353,20 @@
   position: fixed;
   top: 0;
 }
+
+/* loading gif: */
+.loader {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+}
+
+.loader .inner {
+  width: 100%;
+  height: 100%;
+  background: url(../images/icons/Pinwheel.gif) center center no-repeat;
+}
