@@ -7,11 +7,15 @@
 - added the loading Gif
 - fading out the loading gif and the background sequentially
 - bug fix: (PORTFOLIO section) images overlapping when the page was loaded the first time
+- added the favicon
 - study notes:
   - add viewport meta tag to <head> to ensure proper rendering and touch zooming on mobile devices:
   ```html
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   ```
+  - add favicon in html:
+    1. use any image as the favicon, or create a favicon at https://www.favicon.cc, save favicon image to the right directory
+    2. add a <link> element to "index.html" file, save the "index.html" file and reload the browser
 
 <br>
 
