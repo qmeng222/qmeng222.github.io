@@ -4,7 +4,7 @@
 
 ## Sunday, 11/13/2022
 
-- added the loading Gif & fadidng out loading indication
+- added the loading Gif & fading out loading gif and background
 - specified the viewport
 - bug fix: images overlapping
 

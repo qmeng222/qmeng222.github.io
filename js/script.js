@@ -1,3 +1,11 @@
+// take 500ms before fading out the loading gif:
+$(window).on("load", function () {
+  $(".loader .inner").fadeOut(500, function () {
+    // then backgournd fade out in 750ms:
+    $(".loader").fadeOut(750);
+  });
+});
+
 // funciton will be executed when the document (aka the page) is ready:
 $(document).ready(function () {
   // "slides" must matches the id in index.html
