@@ -115,13 +115,23 @@ $(document).ready(function () {
     return false; // stop doing normal default action inside the click handler
   });
 
+  // smooth transition to section on link click:
+  $("#navigation li a").click(function (e) {
+    e.preventDefault(); // prevent the default action of jumping to the section
+    const targetElmt = $(this).attr("href"); // "#about", "#skills", "#stats", ...
+    const targetPosition = $(targetElmt).offset().top;
+    // jQurey: select html and body elements, scrollTop: 50px above the targetPosition
+    $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+  });
+
+  // sticking nav bar on scroll：
   const nav = $("#navigation");
   const navTop = nav.offset().top;
   $(window).on("scroll", stickyNavigation);
   function stickyNavigation() {
     const body = $("body");
     if ($(window).scrollTop() >= navTop) {
-      // padding-top property sets the top padding (space) of an element
+      // padding-top property sets the top padding (space) of the body elmt
       // nav.outerHeight() is the height of the nav bar (a number):
       body.css("padding-top", nav.outerHeight() + "px");
 
