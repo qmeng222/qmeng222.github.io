@@ -14,7 +14,7 @@
 
 - added and styled the navigation bar via Bootstrap & Icons8
 - sticking nav bar on scroll
-- sliding to section on link click
+- set the top padding (space) of an element on scroll
 
 <br>
 

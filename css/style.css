@@ -327,6 +327,7 @@
   background-color: #474787;
   padding: 20px 10px;
   z-index: 69;
+  width: 100%;
 }
 
 #navigation li {
