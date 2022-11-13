@@ -114,4 +114,16 @@ $(document).ready(function () {
 
     return false; // stop doing normal default action inside the click handler
   });
+
+  const nav = $("#navigation");
+  const navTop = nav.offset().top;
+  $(window).on("scroll", stickyNavigation);
+  function stickyNavigation() {
+    const body = $("body");
+    if ($(window).scrollTop() >= navTop) {
+      body.addClass("fixedNav");
+    } else {
+      body.removeClass("fixedNav");
+    }
+  }
 });

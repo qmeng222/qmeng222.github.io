@@ -2,11 +2,19 @@
 
 <br>
 
+## Sunday, 11/13/2022
+
+- added the loading Gif & fadidng out loading indication
+- specified the viewport
+- bug fix: images overlapping
+
+<br>
+
 ## Saturday, 11/12/2022
 
 - added and styled the navigation bar via Bootstrap & Icons8
 - stiking nav bar on scroll
-- sliding to section on click
+- sliding to section on link click
 
 <br>
 

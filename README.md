@@ -4,7 +4,7 @@
 
 - project name: software engineer portfolio website
 - project owner: Qingying Meng
-- time frame: 10/31/2022 - 11/7/2022
+- time frame: 10/31/2022 - 11/13/2022
 - project purpose: demonstrate ability for front-end web development using HTML, CSS, JavaScript with various libraries and plugins
 - gitlab url: https://gitlab.com/qmeng222/qmeng222.gitlab.io.git
 
