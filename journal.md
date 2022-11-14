@@ -8,6 +8,7 @@
 - fading out the loading gif and the background sequentially
 - bug fix: (PORTFOLIO section) images overlapping when the page was loaded the first time
 - added the favicon
+- CI/CD to automatically build, test, deploy, and monitor the website by using GitLab Auto DevOps
 - study notes:
   - add viewport meta tag to <head> to ensure proper rendering and touch zooming on mobile devices:
   ```html
