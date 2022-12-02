@@ -1,5 +1,20 @@
 # Qingying's Developer Journal
 
+## Thursday, 12/1/2022
+
+- Bootstrap includes a wide range of shorthand responsive margin, padding, and gap utility classes to modify an element’s appearance.
+  - m: for classes that set margin
+  - p: for classes that set padding
+  - t: for classes that set margin-top or padding-top
+  - b: for classes that set margin-bottom or padding-bottom
+  - s: (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+  - e: (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+  - x: for classes that set both _-left and _-right
+  - y: for classes that set both _-top and _-bottom
+  - blank: for classes that set a margin or padding on all 4 sides of the element
+  - auto: for classes that set the margin to auto
+- Reference: https://getbootstrap.com/docs/5.0/utilities/spacing/
+
 <br>
 
 ## Sunday, 11/13/2022
