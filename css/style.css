@@ -71,7 +71,7 @@
 /* both sections are in purple background: */
 .skills-section,
 .contact-section {
-  background-color: #474787;
+  background-color: #1e3799;
   color: #fff;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .chart .percent {
-  color: #ffb142;
+  color: #f6b93b;
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
@@ -139,7 +139,7 @@
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #ffb142;
+  color: #f6b93b;
 }
 
 .squreContent h3 {
@@ -170,7 +170,7 @@
 
 .contact-button:hover {
   background-color: #fff;
-  color: #474787;
+  color: #1e3799;
   /* no underline for text-decoration: */
   text-decoration: none;
 }
@@ -188,8 +188,8 @@
 }
 
 .filter .current {
-  background-color: #474787;
-  border-color: #474787;
+  background-color: #1e3799;
+  border-color: #1e3799;
   color: #fff;
 }
 
@@ -250,7 +250,7 @@
 .items a {
   width: 40px;
   height: 40px;
-  background-color: #474787;
+  background-color: #1e3799;
   position: relative;
   display: inline-block;
 
@@ -324,7 +324,7 @@
 }
 
 #navigation {
-  background-color: #474787;
+  background-color: #1e3799;
   padding: 20px 10px;
   z-index: 69;
   width: 100%;
