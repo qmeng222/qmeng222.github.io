@@ -374,7 +374,7 @@
 /* scroll down arrow with bounce animation: */
 .bounce {
   z-index: 9;
-  background: url(../images/icons/scroll-down-6.png);
+  background: url(../images/icons/scroll-down.png);
   background-size: cover;
   position: absolute;
   left: 50%;
