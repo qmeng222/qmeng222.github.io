@@ -27,8 +27,14 @@ $(document).ready(function () {
 
   // typed through effect on subtitle using typed.js:
   var typed = new Typed(".typed", {
-    strings: ["software engineer", "creative", "adaptive", "motivated"],
-    typeSpeed: 100, // type speed in milliseconds
+    strings: [
+      "machine learning eng.",
+      "full stack dev.",
+      "creative",
+      "adaptive",
+      "motivated",
+    ],
+    typeSpeed: 50, // type speed in milliseconds
     loop: true,
     startDelay: 1000,
     showCursor: false,
