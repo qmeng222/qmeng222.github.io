@@ -28,8 +28,8 @@ $(document).ready(function () {
   // typed through effect on subtitle using typed.js:
   var typed = new Typed(".typed", {
     strings: [
-      "machine learning eng.",
       "full stack dev.",
+      "machine learning eng.",
       "creative",
       "adaptive",
       "motivated",
